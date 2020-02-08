@@ -262,7 +262,7 @@ class Currency:
         )
 
 
-@unique
+@enum.unique
 class Patterns(Enum):
     """Regex patterns for harvesting some data."""
 
