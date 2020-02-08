@@ -263,7 +263,7 @@ class Currency:
 
 
 @enum.unique
-class Patterns(Enum):
+class Patterns(enum.Enum):
     """Regex patterns for harvesting some data."""
 
     CODIGO_MOEDA = re.compile(r"<codigoMoeda>(\d{1,3})</codigoMoeda>")
